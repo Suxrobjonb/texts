@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cfdde8;
+}
+
+.big__box {
+  width: 400px;
+  margin-top: 10%;
+}
+
+.mark__name {
+  width: 400px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 14px 14px 0px 0px;
+  background-color:#6A96D8;
+}
+
+.mark__title {
+  margin-left: 20px;
+  position: relative;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.mark__title::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: -14px;
+  top: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.exit__img {
+  margin-right: 20px;
+}
+
+.hero {
+  padding: 24px 24px 20px 24px;
+  background-color: #fff;
+}
+
+.hero__text {
+  margin-left: 44%;
+  position: relative;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #DDDDDD;
+}
+
+.hero__text::before {
+  content: '';
+  width: 145px;
+  height: 2px;
+  position: absolute;
+  top: 7px;
+  left: -153px;
+  background-color: #dddddd;
+}
+
+.hero__text::after {
+  content: '';
+  width: 145px;
+  height: 2px;
+  position: absolute;
+  top: 7px;
+  left: 53px;
+  background-color: #dddddd;
+}
+
+.massage {
+  margin-top: 24px;
+}
+
+.massenge__1 {
+  background-color: #E6EDF6;;
+}
+
+.mark__text-massage {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #000000;
+}
